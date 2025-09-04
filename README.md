@@ -1,11 +1,30 @@
 MNIST Handwritten Digit Classification
+<div align="center">
+<p>A machine learning project to classify handwritten digits from the MNIST dataset using Python and Scikit-learn, presented in a Jupyter Notebook.</p>
+</div>
+
+📋 Table of Contents
+Overview
+
+Dataset
+
+Technologies--Libraries-Used
+
+How-to-Get-Started
+
+Model--Results
+
+Contributing
+
+License
+
 📖 Overview
 This project focuses on the classic machine learning problem of handwritten digit recognition using the famous MNIST dataset. The goal is to build and train a model that can accurately classify images of handwritten digits from 0 to 9.
 
 This implementation uses a Jupyter Notebook to walk through the process of data loading, preprocessing, model training, and evaluation.
 
 💾 Dataset
-The project utilizes the MNIST (Modified National Institute of Standards and Technology) dataset, which is a large database of handwritten digits that is commonly used for training and testing in the field of machine learning.
+The project utilizes the MNIST (Modified National Institute of Standards and Technology) dataset, a large database of handwritten digits commonly used for training and testing in the field of machine learning.
 
 Training Set: 60,000 images
 
@@ -37,14 +56,14 @@ git clone [https://github.com/farhann-saleem/Mnist-classification.git](https://g
 cd Mnist-classification
 
 Install the required libraries:
-Create a requirements.txt file with the following content:
+For a streamlined setup, you can create a requirements.txt file with the following content:
 
 numpy
 scikit-learn
 matplotlib
 jupyter
 
-Then, install them using pip:
+Then, install all dependencies with a single command:
 
 pip install -r requirements.txt
 
@@ -71,4 +90,5 @@ Examples of correctly and incorrectly classified digits.
 🤝 Contributing
 Contributions, issues, and feature requests are welcome! Feel free to check the issues page if you want to contribute.
 
-This README was generated to provide a clear and structured overview of the project.
+📄 License
+This project is open-source. Feel free to use and modify it as you see fit.
